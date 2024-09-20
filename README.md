@@ -24,5 +24,29 @@ This project is a React Native application that includes a splash screen with an
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/RaghuVirk/AnimateTest.git
    cd <repository-folder>
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+## Set up the iOS environment:
+
+   ```bash
+   cd ios
+   pod install
+   cd ..
+
+## Running the Application
+1. Run on iOS:
+   npx react-native run-ios
+
+
+2. Run on Android:
+   npx react-native run-android
+
+3. Run Jest Tests:
+   npm test
+
